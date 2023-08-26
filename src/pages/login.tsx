@@ -36,7 +36,7 @@ export default function LoginPage() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <Navbar user={loggedInUser} />
+      <Navbar  />
       <Header />
       <Login onLogin={handleLogin}/>
       <Footer />
